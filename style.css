@@ -1,0 +1,141 @@
+body {
+    background: #FF69B4; /* Pink background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+
+form {
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* White text color */
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #fff; /* White border */
+    border-radius: 5px;
+}
+
+label {
+    color: #fff; /* White text color */
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+button {
+    background: #4CAF50; /* Green button color */
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.error,
+.success {
+    background: #F08080; /* Light Coral for error background */
+    color: #8B0000; /* Dark Red for error text */
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.success {
+    background: #98FB98; /* Pale Green for success background */
+    color: #008000; /* Dark Green for success text */
+}
+
+.ca {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ca a {
+    color: #fff; /* White text color for links */
+    text-decoration: none;
+}
+
+.ca a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container input,
+.form-container textarea {
+    display: block;
+    width: calc(100% - 20px); /* Adjusted width to account for padding */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    background: #4CAF50;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-container button:hover {
+    opacity: 0.8;
+}
+
+.form-container .error,
+.form-container .success {
+    background: #F08080;
+    color: #8B0000;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.form-container .success {
+    background: #98FB98;
+    color: #008000;
+}
+.create-account-container {
+    text-align: center;
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+.have-account-container {
+    text-align: center;
+    margin-top: 10px; /* Adjust the margin as needed */
+}
